@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="i am a banana i am a banana i am a banana i am a banana.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>tablitca umnozheniy<span class="number"></span>do 12</h1>
+    <script>
+    let i = 0;
+    let number; 
+    do{
+        number=prompt("number")
+    }while(isNaN(number))
+    for(i = 1; i < 13; i++){
+        document.write(`<h2>${number}*${i} = ${number*i}</h2>`)
+    }
+    document.querySelector('.number').innerTextn = number;
+    
+    
+    </script>
+</body>
+</html> 
